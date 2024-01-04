@@ -31,7 +31,7 @@ app.use("/api/users", userRoutes);
 
 const __dirname = path.resolve();
 app.get("/", (req, res) => {
-  res.send("User Services API is running on PORT=5001....");
+  res.send("User Services API is running on PORT 5001....");
 });
 
 // error ~Middleware
