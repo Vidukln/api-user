@@ -31,7 +31,7 @@ app.use("/api/users", userRoutes);
 
 const __dirname = path.resolve();
 app.get("/", (req, res) => {
-  res.send("User Services API is working on PORT 5001 AWS EC2 using Jenkins and Docker ....");
+  res.send("User Services API is working on PORT 5001 AWS EC2 CI/CD pipeline using Jenkins and Docker ....");
 });
 
 // error ~Middleware
